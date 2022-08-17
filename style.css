@@ -1,0 +1,15 @@
+p,li { 
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .font_titles {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ body {
+    background-color: #ade8f4;
+ }
+
+ .size_font_list {
+    font-size: 16px;
+ }
