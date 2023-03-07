@@ -1,0 +1,19 @@
+main {
+  width: 100%;
+  height: 400px;
+  background-image: url('../images/975730.jpg');
+}
+
+.container-perfil {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 200%;
+}

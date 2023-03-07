@@ -1,0 +1,66 @@
+.container-header {
+  width: 100vw;
+  height: 65px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .icon-header {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+} */
+
+.container-name-center {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-titles {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.title-main-header {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+.titles-header {
+  color: white;
+  font-family: 'Teko', sans-serif;
+}
+
+.titles-header:hover {
+  color: blue;
+}
+
+hr {
+  width: 0;
+  height: 30px;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.pac {
+  width: 60px;
+  height: 60px;
+}
+
+.coding {
+  width: 50px;
+  height: 50px;
+}
