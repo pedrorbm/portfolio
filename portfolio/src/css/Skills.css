@@ -1,0 +1,65 @@
+.container-skills {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.sub-container-skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-group {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-group-1 {
+  display: flex;
+  gap: 15px;
+}
+
+.skill-group-2 {
+  display: flex;
+  gap: 15px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+}
+
+.title-skills {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+  
+.title-skills-group {
+  color: white;
+}
+
+.img-astro-skill {
+  width: 400px;
+  height: 400px;
+}
+
+.skill {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(77, 72, 72);
+  border-radius: 10px;
+  height: 90px;
+  width: 90px;
+  gap: 2px;
+}
