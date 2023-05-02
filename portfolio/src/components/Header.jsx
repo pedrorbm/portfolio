@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import iconGithub from '../images/icons-github.svg';
-// import iconLinkedin from '../images/icons-linkedin.svg';
 import code from '../images/icons-source-code.png';
 import pac from '../images/pac-header.svg';
 import coding from '../images/icons-coding.png';
@@ -9,8 +7,6 @@ class Header extends Component {
   render() {
     return (
       <header className="container-header">
-        {/* <img className="icon-header" src={ iconGithub } alt="Ícone do github" />
-        <img className="icon-header" src={ iconLinkedin } alt="Ícone do linkedin" /> */}
         <div className="container-name-center">
           <h1 className="title-main-header">PEDRODEV</h1>
           <img src={ code } alt="Ícone de código" />
