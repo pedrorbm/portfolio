@@ -15,8 +15,8 @@ function Skills() {
     <div className="container-skills">
       <h1 className="title-skills">CONHECIMENTOS</h1>
       <div className="sub-container-skills">
-        <div className="teste">
-          <img src={ astroSkill } alt="" className="img-astro-skill" />
+        <div className="skills-image">
+          <img src={ astroSkill } alt="Imagem de um astronauta" className="img-astro-skill" />
         </div>
         <div className="skill-group">
           <div className="skill-group-1">

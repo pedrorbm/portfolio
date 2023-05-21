@@ -31,6 +31,7 @@
 .titles-header {
   color: white;
   font-family: 'Teko', sans-serif;
+  cursor: pointer;
 }
 
 .titles-header:hover {

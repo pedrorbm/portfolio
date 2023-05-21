@@ -2,6 +2,7 @@ main {
   width: 100%;
   background-image: url('../images/975730.jpg');
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
 }
