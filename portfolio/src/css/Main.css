@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  background-image: url('../images/975730.jpg');
+  background-color: #1f242d;
   display: flex;
   flex-flow: column;
   justify-content: center;

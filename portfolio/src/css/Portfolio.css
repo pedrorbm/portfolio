@@ -3,4 +3,12 @@
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: #1f242d;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: #0ef;
+  width: 10px;
+}
