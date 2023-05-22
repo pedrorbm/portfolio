@@ -1,14 +1,23 @@
 .container-header {
   width: 100%;
   height: 65px;
-  background-color: black;
+  top: 0;
+  background-color: #1f242d;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 100;
+  transition: 0.1s ease;
+}
+
+.header-transform {
+  box-shadow: 0 0 14rem #0ef;
+  border-bottom: 5px solid #0ef;
 }
 
 .container-name-center {
-  width: 25%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +37,11 @@
   font-family: 'Fredoka One', cursive;
 }
 
+.title-main-header-dev {
+  color:#0ef;
+  font-family: 'Fredoka One', cursive;
+}
+
 .titles-header {
   color: white;
   font-family: 'Teko', sans-serif;
@@ -35,12 +49,7 @@
 }
 
 .titles-header:hover {
-  color: blue;
-}
-
-hr {
-  width: 0;
-  height: 30px;
+  color: #0ef;
 }
 
 .container-icons {
@@ -51,8 +60,9 @@ hr {
 }
 
 .pac {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
+  background: none;
 }
 
 .coding {
