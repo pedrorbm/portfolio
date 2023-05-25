@@ -13,9 +13,9 @@ class Main extends Component {
         <section>
           <Profile />
         </section>
-        {/* <section className="main-skills">
+        <section className="main-skills">
           <Skills />
-        </section> */}
+        </section>
       </main>
     )
   };
