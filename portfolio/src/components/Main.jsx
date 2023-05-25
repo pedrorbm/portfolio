@@ -10,10 +10,10 @@ class Main extends Component {
         <section>
           <Home />
         </section>
-        {/* <section>
+        <section>
           <Profile />
         </section>
-        <section className="main-skills">
+        {/* <section className="main-skills">
           <Skills />
         </section> */}
       </main>
