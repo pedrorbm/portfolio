@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .sub-container-skills {
@@ -37,14 +36,16 @@
 }
 
 .icons {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  color: #0ef;
 }
 
 .title-skills {
   color: white;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
+  margin-bottom: 5%;
 }
   
 .title-skills-group {
@@ -61,6 +62,12 @@
   background-color: rgb(77, 72, 72);
   border-radius: 10px;
   height: 140px;
-  width: 140px;
+  width: 165px;
   gap: 5%;
+  cursor: default;
+}
+
+.skill:hover {
+  border: 2px solid #0ef;
+  box-shadow: 0 0 50px #0ef;
 }
