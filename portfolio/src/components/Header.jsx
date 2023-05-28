@@ -33,10 +33,10 @@ function Header() {
         <img className="coding" src={ coding } alt="Ícone laptop com código" />
       </div>
       <div className="container-titles">
-        <h2 className="titles-header">INÍCIO</h2>
-        <h2 className="titles-header">SOBRE</h2>
-        <h2 className="titles-header">CONHECIMENTOS</h2>
-        <h2 className="titles-header">PROJETOS</h2>
+        <a href=".container-home" tabindex="0">INÍCIO</a>
+        <a className="titles-header">SOBRE</a>
+        <a className="titles-header">CONHECIMENTOS</a>
+        <a className="titles-header">PROJETOS</a>
       </div>
     </header>
   )
