@@ -1,13 +1,9 @@
 import React from 'react';
-import iconReact from '../images/react-50.png';
-import iconJs from '../images/js-50.png';
-import iconHtml from '../images/html-50.png';
-import iconCss from '../images/css-50.png';
-import iconBootstrap from '../images/bootstrap-50.png';
-import iconRedux from '../images/redux-50.png';
-import iconJest from '../images/jest-50.png';
-import iconDocker from '../images/docker-50.png';
-import iconMysql from '../images/mysql-50.png';
+import iconRedux from '../images/redux-60.png';
+import iconJest from '../images/jest-60.png';
+import iconMysql from '../images/mysql-60.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faReact, faJs, faHtml5, faCss3, faBootstrap, faDocker, faNodeJs } from "@fortawesome/free-brands-svg-icons"
 
 function Skills() {
   return (
@@ -17,42 +13,50 @@ function Skills() {
         <div className="skill-group">
           <div className="skill-group-1">
             <div className="skill">
-              <img src={ iconReact } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faReact } className="icons" />
               <h4 className="title-skills-group">React</h4>
             </div>
             <div className="skill">
-              <img src={ iconJs } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faJs } className="icons" />
               <h4 className="title-skills-group">JavaScript</h4>
             </div>
             <div className="skill">
-              <img src={ iconHtml } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faHtml5 } className="icons" />
               <h4 className="title-skills-group">HTML</h4>
             </div>
             <div className="skill">
-              <img src={ iconCss } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faCss3 } className="icons" />
               <h4 className="title-skills-group">CSS</h4>
             </div>
             <div className="skill">
-              <img src={ iconBootstrap } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faBootstrap } className="icons" />
               <h4 className="title-skills-group">Bootstrap</h4>
             </div>
-            </div>
-          <div className="skill-group-2">
             <div className="skill">
               <img src={ iconRedux } alt="" className="icons" />
               <h4 className="title-skills-group">Redux</h4>
             </div>
+          </div>
+          <div className="skill-group-2">
             <div className="skill">
               <img src={ iconJest } alt="" className="icons" />
               <h4 className="title-skills-group">Jest</h4>
             </div>
             <div className="skill">
-              <img src={ iconDocker } alt="" className="icons" />
+              <FontAwesomeIcon icon={ faDocker } className="icons" />
               <h4 className="title-skills-group">Docker</h4>
             </div>
             <div className="skill">
               <img src={ iconMysql } alt="" className="icons" />
               <h4 className="title-skills-group">MySQL</h4>
+            </div>
+            <div className="skill">
+              <FontAwesomeIcon icon={ faNodeJs } className="icons" />
+              <h4 className="title-skills-group">Node.js</h4>
+            </div>
+            <div className="skill">
+              <FontAwesomeIcon icon={ faGithub } className="icons" />
+              <h4 className="title-skills-group">GitHub</h4>
             </div>
           </div>
         </div>

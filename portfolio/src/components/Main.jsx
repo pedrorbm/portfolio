@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './Home';
 import Profile from './Profile';
 import Skills from './Skills';
+import Projects from './Projects';
 
 class Main extends Component {
   render() {
@@ -15,6 +16,9 @@ class Main extends Component {
         </section>
         <section className="main-skills">
           <Skills />
+        </section>
+        <section>
+          <Projects />
         </section>
       </main>
     )
