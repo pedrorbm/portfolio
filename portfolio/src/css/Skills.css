@@ -1,4 +1,4 @@
-.container-skills {
+#container-skills {
   display: flex;
   width: 100%;
   gap: 20px;
@@ -42,7 +42,7 @@
 }
 
 .title-skills {
-  color: white;
+  color: #0ef;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   margin-bottom: 5%;

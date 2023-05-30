@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 function Projects() {
   return (
-    <div className="container-projects">
+    <div id="container-projects">
       <h1 className="title-projects">PROJETOS</h1>
       <div className="projects-group-1">
         <div className="projects">

@@ -5,7 +5,7 @@ import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-i
 
 function Home() {
   return (
-    <div className="container-home">
+    <div id="container-home">
       <div className="home-content">
         <div className="home-description">
           <h1 className="title-home">Olá, eu sou</h1>

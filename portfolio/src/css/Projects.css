@@ -1,17 +1,17 @@
-.container-projects {
+#container-projects {
   background-color: #323946;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .title-projects {
-  color: white;
+  color: #0ef;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
-  margin-top: 4%;
   margin-bottom: 5%;
 }
 

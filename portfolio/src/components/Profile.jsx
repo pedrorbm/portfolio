@@ -3,7 +3,7 @@ import astroProfile from '../images/astro-skill.png';
 
 function Profile() {
   return (
-    <div className="container-profile">
+    <div id="container-profile">
       <h1 className="title-profile"><span className="title-profile title-about">SOBRE</span> MIM</h1>
       <div className="sub-container-profile">
         <div className="profile-image">
