@@ -46,6 +46,8 @@
   color: white;
   font-family: 'Teko', sans-serif;
   cursor: pointer;
+  text-decoration: none;
+  font-size: x-large;
 }
 
 .titles-header:hover {

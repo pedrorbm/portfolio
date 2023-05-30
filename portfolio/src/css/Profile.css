@@ -1,4 +1,4 @@
-.container-profile {
+#container-profile {
   background-color: #323946;
   display: flex;
   width: 100%;
@@ -6,7 +6,7 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding-top: 5%;
+  padding-top: 100px;
   padding-bottom: 10%;
 }
 
@@ -21,6 +21,7 @@
   color: white;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
+  margin-bottom: 5%;
 }
 
 .title-about {
@@ -39,6 +40,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
+  gap: 10px;
 }
 
 .profile-description {

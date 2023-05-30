@@ -7,7 +7,7 @@ import { faGithub, faReact, faJs, faHtml5, faCss3, faBootstrap, faDocker, faNode
 
 function Skills() {
   return (
-    <div className="container-skills">
+    <div id="container-skills">
       <h1 className="title-skills">CONHECIMENTOS</h1>
       <div className="sub-container-skills">
         <div className="skill-group">
