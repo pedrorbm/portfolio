@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Portfolio from './pages/Portfolio';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <Switch>
-        <Route exact path="/" component={ Portfolio } />
-      </Switch>
-    )
-  };
+function App() {
+  return (
+    <Routes>
+      <Route exact path="/" element={<Portfolio />} />
+    </Routes>
+  );
 }
 
 export default App;
