@@ -22,21 +22,21 @@ function Header() {
 
   return (
     <header className="container-header">
-      <div className="container-name-center">
+      <section className="container-name-center">
         <h1 className="title-main-header">PEDRO</h1>
         <h1 className="title-main-header-dev">DEV</h1>
         <img src={code} alt="Ícone de código" />
-      </div>
-      <div className="container-icons">
+      </section>
+      <section className="container-icons">
         <img className="pac" src={pac} alt="Animação do pacman" />
         <img className="coding" src={coding} alt="Ícone laptop com código" />
-      </div>
-      <div className="container-titles">
+      </section>
+      <nav className="container-titles">
         <a href="#container-home" className="titles-header">INÍCIO</a>
         <a href="#container-profile" className="titles-header">SOBRE</a>
         <a href="#container-skills" className="titles-header">CONHECIMENTOS</a>
         <a href="#container-projects" className="titles-header">PROJETOS</a>
-      </div>
+      </nav>
     </header>
   );
 }
