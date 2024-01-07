@@ -25,18 +25,15 @@
 
 .project {
   background: gray;
-  border-radius: 2rem;
   display: flex;
   width: 60%;
   height: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   justify-content: center;
   align-items: center;
-}
-
-.project:hover {
-  background-color: #0ef;
+  border: 2px solid #0ef;
+  box-shadow: 0 0 50px #0ef;
 }
 
 .projects {
@@ -49,7 +46,7 @@
 }
 
 .image-project {
-  width: 85%;
+  width: 92%;
   height: 75%;
 }
 
@@ -69,6 +66,7 @@
 .icon-project:hover {
   background-color: #0ef;
   color: #323946;
+  transform: rotate(359deg);
 }
 
 .project-box-icons {

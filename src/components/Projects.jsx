@@ -7,7 +7,7 @@ import trybewallet from '../images/trybewallet.jpg';
 
 function Projects() {
   return (
-    <div id="container-projects">
+    <section id="container-projects">
       <h1 className="title-projects">PROJETOS</h1>
       <div className="projects-group-1">
         <div className="projects">
@@ -43,7 +43,7 @@ function Projects() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -39,18 +39,29 @@
   font-size: 60px;
 }
 
-.title-home-front {
+.title-home-full {
   color: #0ef;
   font-family: 'Teko', sans-serif;
   font-size: 40px;
   border-right: 2px solid #0ef;
+  width: 21ch;
   white-space: nowrap;
   overflow: hidden;
+  animation: typing 2.2s steps(21) infinite alternate-reverse,
+  blinking 0.5s infinite step-end
+  alternate;
 }
 
-.teste {
-  display: flex;
-  gap: 5px;
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .p-home {
@@ -61,19 +72,6 @@
   text-align: justify;
   margin-top: 2%;
   margin-bottom: 2%;
-}
-
-.typing-animation {
-  animation: typing 4s 1s infinite normal;
-}
-
-@keyframes typing {
-  from {
-    width: 0px;
-  }
-  to {
-    width: 330px;
-  }
 }
 
 .home-socials {
@@ -98,6 +96,7 @@
 .btn-home:hover {
   background-color: #0ef;
   color: #1f242d;
+  transform: rotate(359deg);
 }
 
 @keyframes homeImage {

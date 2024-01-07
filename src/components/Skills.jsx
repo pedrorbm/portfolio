@@ -2,15 +2,17 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import
 {
-  faGithub, faReact, faJs, faHtml5, faCss3, faBootstrap, faDocker, faNodeJs,
+  faGithub, faReact, faJs, faHtml5, faCss3, faDocker, faNodeJs,
 } from '@fortawesome/free-brands-svg-icons';
 import iconRedux from '../images/redux-60.png';
 import iconJest from '../images/jest-60.png';
 import iconMysql from '../images/mysql-60.png';
+import iconTS from '../images/ts-icon.png';
+import iconPython from '../images/python-icon.png';
 
 function Skills() {
   return (
-    <div id="container-skills">
+    <section id="container-skills">
       <h1 className="title-skills">CONHECIMENTOS</h1>
       <div className="sub-container-skills">
         <div className="skill-group">
@@ -24,16 +26,16 @@ function Skills() {
               <h4 className="title-skills-group">JavaScript</h4>
             </div>
             <div className="skill">
+              <img src={iconTS} alt="" className="icons" />
+              <h4 className="title-skills-group">TypeScript</h4>
+            </div>
+            <div className="skill">
               <FontAwesomeIcon icon={faHtml5} className="icons" />
               <h4 className="title-skills-group">HTML</h4>
             </div>
             <div className="skill">
               <FontAwesomeIcon icon={faCss3} className="icons" />
               <h4 className="title-skills-group">CSS</h4>
-            </div>
-            <div className="skill">
-              <FontAwesomeIcon icon={faBootstrap} className="icons" />
-              <h4 className="title-skills-group">Bootstrap</h4>
             </div>
             <div className="skill">
               <img src={iconRedux} alt="" className="icons" />
@@ -61,11 +63,15 @@ function Skills() {
               <FontAwesomeIcon icon={faGithub} className="icons" />
               <h4 className="title-skills-group">GitHub</h4>
             </div>
+            <div className="skill">
+              <img src={iconPython} alt="" className="icons" />
+              <h4 className="title-skills-group">Python</h4>
+            </div>
           </div>
         </div>
       </div>
       <div className="div-triangle" />
-    </div>
+    </section>
   );
 }
 
