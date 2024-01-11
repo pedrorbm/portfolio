@@ -8,7 +8,7 @@ function Home() {
     <section id="container-home">
       <section className="home-content">
         <article className="home-description">
-          <h1 className="title-home">Olá, eu sou</h1>
+          <h1 className="title-home">Olá, sou</h1>
           <h1 className="title-home-name">Pedro Roberto</h1>
           <h1 className="title-home-full">Desenvolvedor Full Stack</h1>
           <p className="p-home">
