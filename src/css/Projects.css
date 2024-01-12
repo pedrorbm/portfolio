@@ -6,21 +6,23 @@
   align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
 }
 
 .title-projects {
   color: #0ef;
   font-family: 'Teko', sans-serif;
   font-size: 50px;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .projects-group-1 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 90%;
+  align-items: flex-start;
+  height: max-content;
+  width: 80%;
 }
 
 .project {
@@ -30,10 +32,11 @@
   height: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
+  margin-bottom: 20px;
   justify-content: center;
   align-items: center;
   border: 2px solid #0ef;
-  box-shadow: 0 0 50px #0ef;
+  box-shadow: 0 0 5px #0ef;
 }
 
 .projects {
@@ -42,7 +45,8 @@
   justify-content: center;
   align-items: center;
   width: 60%;
-  gap: 10px;
+  gap: 50%;
+  height: max-content;
 }
 
 .image-project {
@@ -55,7 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
+  width: 60px;
   height: 50px;
   border: 2px solid #0ef;
   border-radius: 50%;
@@ -80,4 +84,80 @@
   font-family: 'Teko', sans-serif;
   color: white;
   font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.project-description-box-one {
+  background-color: #4d4848;
+  border: 1px solid #0ef;
+  box-shadow: 0 0 20px #0ef;
+  padding: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20%;
+  height: max-content;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: justify;
+  display: none;
+}
+
+.description p {
+  margin: 0 5px 20px 0;
+}
+
+.project-description-box-two {
+  background-color: #4d4848;
+  border: 1px solid #0ef;
+  box-shadow: 0 0 20px #0ef;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+  height: max-content;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  text-align: justify;
+  display: none;
+}
+
+p {
+  color: white;
+}
+
+.project-technologies {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  align-items: center;
+}
+
+.project-technologies h3 {
+  color: white;
+}
+
+.project-technologies p {
+  border: 1px solid #0ef;
+  box-shadow: 0 0 5px #0ef;
+  padding: 5px;
+  color: white;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+}
+
+.btnDetails {
+  font-family: 'Teko', sans-serif;
+  color: #0ef;
+  font-size: xx-large;
+  cursor: pointer;
+  margin-bottom: 10px;
 }

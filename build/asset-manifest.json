@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d7a51555.css",
+    "main.css": "/portfolio/static/css/main.28d916de.css",
     "main.js": "/portfolio/static/js/main.bf4d83af.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/astro-sobre.png": "/portfolio/static/media/astro-sobre.5ac427bd0315f0a0a1d1.png",
@@ -8,12 +8,12 @@
     "static/media/astro-skill.png": "/portfolio/static/media/astro-skill.fe1de98362e945804219.png",
     "static/media/trybewallet.jpg": "/portfolio/static/media/trybewallet.96a8667ec3cee134910d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d7a51555.css.map": "/portfolio/static/css/main.d7a51555.css.map",
+    "main.28d916de.css.map": "/portfolio/static/css/main.28d916de.css.map",
     "main.bf4d83af.js.map": "/portfolio/static/js/main.bf4d83af.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7a51555.css",
+    "static/css/main.28d916de.css",
     "static/js/main.bf4d83af.js"
   ]
 }
