@@ -13,8 +13,9 @@ function Home() {
           <h1 className="title-home-full">Desenvolvedor Full Stack</h1>
           <p className="p-home">
             <strong>
-              A curiosidade ao ver linhas de códigos, me fez despertar o interesse em entender
-              a funcionalidade de cada linha e aprender cada vez mais sobre o mundo da programação.
+              A curiosidade ao ver linhas de códigos, despertou em mim o interesse em entender
+              a funcionalidade de cada linha e aguçou minha curiosidade em aprender cada vez
+              mais sobre o mundo da programação.
             </strong>
           </p>
           <asside className="home-socials">

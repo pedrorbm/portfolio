@@ -10,7 +10,7 @@ function Header() {
     const bottomBorder = () => {
       setHandleScroll(window.scrollY);
 
-      if (handleScroll > 50) {
+      if (handleScroll >= 50) {
         document.querySelector('header').classList.add('header-transform');
       } else {
         document.querySelector('header').classList.remove('header-transform');

@@ -47,3 +47,18 @@
 .profile-description {
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .sub-container-profile {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .profile-group {
+    width: 80%;
+  }
+
+  .img-astro-profile {
+    height: 250px;
+  }
+}
