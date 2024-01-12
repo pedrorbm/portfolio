@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.28d916de.css",
-    "main.js": "/portfolio/static/js/main.bf4d83af.js",
+    "main.css": "/portfolio/static/css/main.14670e7f.css",
+    "main.js": "/portfolio/static/js/main.3519c6b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/store-manager.png": "/portfolio/static/media/store-manager.38b6ae9b33e7ea84c476.png",
     "static/media/astro-sobre.png": "/portfolio/static/media/astro-sobre.5ac427bd0315f0a0a1d1.png",
     "static/media/trybetunes.jpg": "/portfolio/static/media/trybetunes.acf76bac68d3868073aa.jpg",
     "static/media/astro-skill.png": "/portfolio/static/media/astro-skill.fe1de98362e945804219.png",
+    "static/media/tfc.png": "/portfolio/static/media/tfc.b3ed6f3b366f53735cc2.png",
     "static/media/trybewallet.jpg": "/portfolio/static/media/trybewallet.96a8667ec3cee134910d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.28d916de.css.map": "/portfolio/static/css/main.28d916de.css.map",
-    "main.bf4d83af.js.map": "/portfolio/static/js/main.bf4d83af.js.map",
+    "main.14670e7f.css.map": "/portfolio/static/css/main.14670e7f.css.map",
+    "main.3519c6b4.js.map": "/portfolio/static/js/main.3519c6b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28d916de.css",
-    "static/js/main.bf4d83af.js"
+    "static/css/main.14670e7f.css",
+    "static/js/main.3519c6b4.js"
   ]
 }
