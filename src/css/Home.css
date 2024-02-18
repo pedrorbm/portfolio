@@ -47,7 +47,7 @@
   width: 21ch;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(21) infinite alternate-reverse
+  animation: typing 3s steps(20) infinite alternate-reverse
 }
 
 @keyframes typing {
