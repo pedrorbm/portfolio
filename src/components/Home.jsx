@@ -10,7 +10,9 @@ function Home() {
         <article className="home-description">
           <h1 className="title-home">Olá, sou</h1>
           <h1 className="title-home-name">Pedro Roberto</h1>
-          <h1 className="title-home-full">Desenvolvedor Full Stack</h1>
+          <div className="box-dev">
+            <h1 className="title-home-full">Desenvolvedor Full Stack</h1>
+          </div>
           <p className="p-home">
             <strong>
               A curiosidade ao ver linhas de códigos, despertou em mim o interesse em entender

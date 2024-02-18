@@ -39,15 +39,19 @@
   font-size: 60px;
 }
 
+.box-dev {
+  width: 36ch;
+}
+
 .title-home-full {
   color: #0ef;
   font-family: 'Teko', sans-serif;
   font-size: 40px;
   border-right: 2px solid #0ef;
-  width: 21ch;
+  width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 3s steps(20) infinite alternate-reverse
+  animation: typing 3s steps(21) infinite alternate-reverse
 }
 
 @keyframes typing {
@@ -142,6 +146,12 @@
     width: 300px;
     height: 220px;
     z-index: 10;
+  }
+
+  .box-dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .home-socials {
